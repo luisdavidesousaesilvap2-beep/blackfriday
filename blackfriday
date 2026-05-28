@@ -1,0 +1,21 @@
+opcao = 1
+
+while opcao != 0:
+
+    print("1 - produto com % de desconto")
+
+    print("0 - sair")
+
+    opçao = int(input("digite a opção: "))
+
+    if opcao ==1:
+        preco = float(input("digite o preço do produto"))
+        desconto = preco * 0.10
+        final = preco - desconto
+        print("preço final:", final)
+
+    elif opcao == 0:
+        print("programa encerado!")
+
+    else:
+        print("opção invalida!")
