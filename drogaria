@@ -1,0 +1,24 @@
+soma = 0
+
+nome = "1"
+preco = 0
+
+for i in range(5):
+    nome = input("Digite o nome do medicamento: ")
+    preco = float(input("Digite o preço: "))
+
+    soma = soma + preco
+
+    if i == 0:
+        preco = preco
+        nome = nome
+    else:
+        if preco < preco:
+            preco = preco
+            nome = nome
+
+media = soma / 5
+
+print("Medicamento mais barato:", nome)
+print("Preço:", preco)
+print("Média dos preços:", media)
